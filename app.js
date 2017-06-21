@@ -33,7 +33,7 @@ function calcConversion() {
     }
   }
 }
-
+//  git ts
 function wipe() {
   while (imgrool.firstChild) {
     imgrool.removeChild(imgrool.firstChild);
