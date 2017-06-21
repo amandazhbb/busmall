@@ -5,7 +5,7 @@ var piconweb = document.getElementById('imgrool');
 var totalClicks = 0;
 
 // product constructer
-function imgMaker(name, path) {
+function Product(name, path) {
   this.path = path;
   this.name = name;
   this.views = 0;
@@ -145,26 +145,26 @@ function coolChart() {
   });
 }
 
-new imgMaker('bag', 'img/bag.jpg');
-new imgMaker('banana', 'img/banana.jpg');
-new imgMaker('bathroom', 'img/bathroom.jpg');
-new imgMaker('boots', 'img/boots.jpg');
-new imgMaker('breakfast', 'img/breakfast.jpg');
-new imgMaker('bubblegum', 'img/bubblegum.jpg');
-new imgMaker('chair', 'img/chair.jpg');
-new imgMaker('cthulhu', 'img/cthulhu.jpg');
-new imgMaker('dog-duck', 'img/dog-duck.jpg');
-new imgMaker('dragon', 'img/dragon.jpg');
-new imgMaker('pen', 'img/pen.jpg');
-new imgMaker('pet-sweep', 'img/pet-sweep.jpg');
-new imgMaker('scissors', 'img/scissors.jpg');
-new imgMaker('shark', 'img/shark.jpg');
-new imgMaker('sweep', 'img/sweep.jpg');
-new imgMaker('tauntaun', 'img/tauntaun.jpg');
-new imgMaker('unicorn', 'img/unicorn.jpg');
-new imgMaker('usb', 'img/usb.jpg');
-new imgMaker('water-can', 'img/water-can.jpg');
-new imgMaker('wine-glass', 'img/wine-glass.jpg');
+new Product('bag', 'img/bag.jpg');
+new Product('banana', 'img/banana.jpg');
+new Product('bathroom', 'img/bathroom.jpg');
+new Product('boots', 'img/boots.jpg');
+new Product('breakfast', 'img/breakfast.jpg');
+new Product('bubblegum', 'img/bubblegum.jpg');
+new Product('chair', 'img/chair.jpg');
+new Product('cthulhu', 'img/cthulhu.jpg');
+new Product('dog-duck', 'img/dog-duck.jpg');
+new Product('dragon', 'img/dragon.jpg');
+new Product('pen', 'img/pen.jpg');
+new Product('pet-sweep', 'img/pet-sweep.jpg');
+new Product('scissors', 'img/scissors.jpg');
+new Product('shark', 'img/shark.jpg');
+new Product('sweep', 'img/sweep.jpg');
+new Product('tauntaun', 'img/tauntaun.jpg');
+new Product('unicorn', 'img/unicorn.jpg');
+new Product('usb', 'img/usb.jpg');
+new Product('water-can', 'img/water-can.jpg');
+new Product('wine-glass', 'img/wine-glass.jpg');
 randomPic();
 render();
 imgrool.addEventListener('click', handleClick);
